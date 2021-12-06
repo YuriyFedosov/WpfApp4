@@ -98,7 +98,7 @@
             </TabItem>
             <TabItem Header="Расстояния">
                 <UniformGrid Rows="2" Columns="2">
-                    <GroupBox Header="Дюймы в метры" Margin="10" Padding="5" BorderThickness="2" BorderBrush="Red">
+                    <GroupBox Header="Дюймы в метры" Margin="10" Padding="5" BorderThickness="2" BorderBrush="Magenta">
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition/>
@@ -116,7 +116,7 @@
                             <TextBox x:Name="ResIn" Grid.Row="2" Grid.Column="1" Margin="3" IsReadOnly="True"/>
                         </Grid>
                     </GroupBox>
-                    <GroupBox Header="Футы в метры" Margin="10" Padding="5" BorderThickness="2" BorderBrush="#FF02E3F9">
+                    <GroupBox Header="Футы в метры" Margin="10" Padding="5" BorderThickness="2" BorderBrush="#FF12E3F9">
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition/>
@@ -135,7 +135,7 @@
                         </Grid>
                     </GroupBox>
 
-                    <GroupBox Header="Мили (США) в метры" Margin="10" Padding="5" BorderThickness="2" BorderBrush="Yellow">
+                    <GroupBox Header="Мили (США) в метры" Margin="10" Padding="5" BorderThickness="2" BorderBrush="YellowGreen">
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition/>
